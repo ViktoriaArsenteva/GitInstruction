@@ -43,3 +43,39 @@ git clone https://github.com/ViktoriaArsenteva/git-course.git
   ```
 
 Когда папка открыта выполняем команду `git init`
+
+## 5. Запись изменений в репозиторий 
+Рассмотрим несколько важнейших команд:
+### 1. **git status**
+Команда `git status` показыввет информацию о текущем состоянии репозитория: есть ли новые, удаленные или измененные файлы.
+
+*Пример работы данной команды:*
+```
+vikulik@Air-Vikulik GitInsruction % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   GIT_INSTRUCTION.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+### 2. **git add**
+Чтобы git начал отслеживать новый или измененный файл необходимо использовать команду `git add`.
+
+Чтобы добавить оконкретный файл нужно к команде добавить параметр, например: ` git add GIT_INSTRUCTION.md `.
+
+Чтобы отслеживать все изменения и файлы нужно в качестве параметра добавить точку : `git add .` .
+
+### 3. **git commit**
+Для того, чтобы зафиксировать изменения используем команду `git commit` и в качестве параметра добавим ` -m` (message):
+```
+git commit -m "create new file"
+```
+Также можно совместить команды `git add` и `git commit` (но в этом случае зафиксируются ВСЕ изменения!):
+```
+git commit -a -m "create new file"
+```
+
+### 4. **git diff**
+Команда `git diff` показывает все изменения, который не были зафиксированы(т.е. разницу между последним комитом и текущей версией) 
