@@ -127,3 +127,5 @@ vikulik@Air-Vikulik GitInsruction % git branch
   master
 ```
 Ветка на которой сейчас находится пользователь отмечена __*__.
+
+2. Слияние веток
