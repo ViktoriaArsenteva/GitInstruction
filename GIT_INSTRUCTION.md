@@ -121,6 +121,9 @@ git checkout master
 ```
 Чтобы посмотреть все ветки нужно выплнить команду `git branch` без параметра:
 ```
-v
+vikulik@Air-Vikulik GitInsruction % git branch
+* createbranch
+  ignore
+  master
 ```
 Ветка на которой сейчас находится пользователь отмечена __*__.
