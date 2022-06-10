@@ -104,3 +104,5 @@ git switch -
 ```
 git checkout master
 ```
+## 8. Игнорирование файлов
+![photo](скриншотgitignore.jpg)
