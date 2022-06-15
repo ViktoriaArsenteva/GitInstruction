@@ -180,7 +180,7 @@ git clone https://github.com/ViktoriaArsenteva/GitInstruction.git
 
 1. Делаем fork (ответвление) репозитория
 
-2. Делаем git clone своей версии репозитория
+2. Делаем ``git clone`` своей версии репозитория
 
  3. Создаем новую ветку и в нее вносим свои изменения 
  
@@ -189,4 +189,4 @@ git clone https://github.com/ViktoriaArsenteva/GitInstruction.git
   5. Отправляем свою версию в свой GitHub
 
 
-6. На сайте GitHub нажимаем кнопку pull request
+6. На сайте GitHub нажимаем кнопку ``pull request``
